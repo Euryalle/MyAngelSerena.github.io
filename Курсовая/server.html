@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Серверные процессоры</title>
+    <link rel="stylesheet" href="css/style_1.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header_body">
+                    <a href="index.html" class="header_logo">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                     <div class="header_burger">
+                         <span>
+
+                         </span>
+                     </div>
+                    <nav class="header_menu">
+                        <ul class="header_list">
+                            <li>
+                                <a href="index.html" class="header_link">Главная страница</a>
+                            </li>
+                            <li>
+                                <a href="info.html" class="header_link">Основная информацию</a>
+                            </li>
+                            <li>
+                                <a href="desctop.html" class="header_link">Десктопные процессоры</a>
+                            </li>
+                            <li>
+                                <a href="gpu.html" class="header_link">Графические процессоры</a>
+                            </li>
+                            <li>
+                                <a href="mobile.html" class="header_link">Мобильные процессоры</a>
+                            </li>
+                            <li>
+                                <a href="server.html" class="header_link">Серверные процессоры</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="content_text">
+                <div style="text-align: center;">
+                    <h2>Серверные процессоры</h2>
+                </div>
+                <br>
+                <p>
+                    Так же, как и с десктопными вариациями, для серверных станций процессоры выпускают компании AMD и Intel. Линейками, представленные обеими компаниями, являются Epyc и Xeon соответственно.
+                </p>
+                <h2>
+                    AMD Epyc
+                </h2>
+                <br>
+                <p>
+                    Для процессоров компании AMD характерны такие нововведения, как:
+                    <ul>
+                        <li>
+                            Первые 64-ядерные x86-совместимые процессоры, первые x86-совместимые, созданные с применением 7 нм техпроцесса, первые процессоры с поддержкой шины PCI Express 4.0, первые процессоры с поддержкой памяти стандарта DDR4-3200, и т. д. и т. п. 
+                        </li>
+                    </ul>
+                    <div style="text-align: center;">
+                        <img src="images/7nm.jpg" alt="7nm" width="auto" height="100%">
+                    </div>
+                    <ul>
+                        <li>
+                            Увеличение ширины блока операций с плавающей запятой с 128 до 256 бит. Благодаря этому улучшению, все процессоры архитектуры Zen 2 исполняют 256-битные AVX2-инструкции вдвое быстрее, по сравнению с первым поколением. То есть, в Zen 2 появилась поддержка выполнения двух AVX-256 инструкций за такт, что позволило AMD заявить о двукратном росте FP-производительности.
+                        </li>
+                    </ul>
+                    <div style="text-align: center;">
+                        <img src="images/zen2.jpg" alt="zen2" width="auto" height="100%">
+                    </div>
+                    <ul>
+                        <li>
+                            Дополнительное преимущество второе поколение Epyc получило при оптимизации энергоэффективности в виде улучшенного управления питанием, позволяющим получить максимально возможную турбо-частоту при разном количестве активных вычислительных ядер. То есть, как и в настольных Ryzen, даже фабричные частоты выжимают из CPU практически всю возможную производительность. Если говорить о конкретных цифрах, то при восьми активных ядрах тактовая частота топовой модели Epyc 7742 составляет 3,4 ГГц, при 16 падает до 3,33 ГГц, и плавно снижается до 3,2 ГГц для всех 64 ядер.
+                        </li>
+                    </ul>
+                    <div style="text-align: center;">
+                        <img src="images/infinitygen.jpg" alt="7nm" width="auto" height="100%">
+                    </div>
+                    <ul>
+                        <li>
+                            Для ввода-вывода новым процессорам доступны 128 линий PCIe 4.0 на каждый разъем, с максимальной пропускной способностью в 512 ГБ/с. Модели Epyc 7002 стали первыми x86-совместимыми процессорами с такой поддержкой, когда все восемь x16 каналов на каждый CPU поддерживают удвоенную скорость передачи данных. 16-канальные соединения PCIe 4.0 можно разделить на несколько устройств, требующих меньшую пропускную способность.
+                        </li>
+                    </ul>
+                    <div style="text-align: center;">
+                        <img src="images/multidie.jpg" alt="7nm" width="auto" height="100%">
+                    </div>
+                </p>
+                <p>
+                    Таким образом, процессоры Epyc второго поколения обеспечивают высокую производительность при весьма конкурентоспособной стоимости владения, оптимизируя рентабельность в корпоративных приложениях, виртуализации, облачных и высокопроизводительных вычислениях. Epyc 7002 предлагают уникальное сочетание рекордной производительности, наибольший объем памяти и высочайшую пропускную способность ввода-вывода. Все это способствует достижению максимально возможной производительности в высокопроизводительных вычислениях, а передовые технологии повышения безопасности обеспечивают защиту от различных атак на аппаратном уровне
+                </p>
+                <h2>
+                    Intel Xeon
+                </h2>
+                <br>
+                <p>
+                    Компания Intel 24 февраля 2020 г. официально представила второе поколение серверных процессоров Xeon Scalable. Согласно официальным данным, новинки в среднем производительнее предшественников в 1,36 раза. А показатель производительности на доллар повысился в 1,42 раза. 
+                    В линейке 18 моделей, в том числе Xeon Gold 6256 и 6250, которые, по заверению Intel, обладают самой высокой в отрасли частотой для серверных CPU — она достигает 4,5 ГГц в режиме Turbo Boost. Вся серия поделена на модели трех типов: R — для двухсокетных систем, T — для односокетных решений и U — для серверов начального уровня.
+                </p>
+                <div style="text-align: center;">
+                    <img src="images/2nd-Gen-Xeon.jpg" alt="Xeon" width="auto" height="100%">
+                </div>
+                <p>
+                    Для линейки Intel Xeon характерны следующие качества:
+                    <ul>
+                        <li>
+                            Масштабируемые процессоры Intel® Xeon® обеспечивают ведущую в отрасли производительность, оптимизированную для рабочих нагрузок, а благодаря встроенному ускорению ИИ предоставляют надежную основу для повышения производительности, которая помогает ускорить преобразование данных — от мультиоблачных сред до интеллектуальных периферийных устройств.
+                        </li>
+                        <li>
+                            Встроенные средства улучшенной защиты данных. Аппаратные функции безопасности Intel помогают бороться с вредоносными программами, сохраняя при этом целостность и производительность рабочих нагрузок. Эффективное шифрование для предоставления надежных сервисов предоставления данных в процессе их хранения, использования и передачи.
+                        </li>
+                        <li>
+                            Инновационные платформы и аппаратная виртуализация вычислительных, сетевых и запоминающих устройств, а также поддержка нового класса инновационных технологий памяти, которые способствуют экономичному, гибкому и масштабируемому использованию мультиоблачных сред, обеспечивая неизменно высокое качество взаимодействия между компаниями, а также между компаниями и клиентами.
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>  
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
